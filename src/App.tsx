@@ -1,6 +1,12 @@
+import { Menu } from '@headlessui/react'
+import { Dropdown } from './Dropdown'
+import { Header } from './Header'
+
 function App() {
   return (
-    <h1 className='text-3xl ml-9 underline'>Hello World!</h1>
+    <>
+      <Header></Header>
+    </>
   )
 }
 
